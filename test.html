@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navebar">
+        <a href="" class="logo__nav2">عربي <img src="Design/Assets/SVG/globe.svg" width="18px" alt="logo"> </a>
+        <img src="Design/Assets/png/logo__sante-1.png" class="logo__nav" alt="logo">
+        <a href="index.html">Accueil</a>
+        <a href="conseil.html">Conseil</a>
+    </div>
+    <div class="nav2">
+        <h3>LA DERNIÈRE INFO MÉDICALE</h3>
+        <P>La prise d'anti-inflammatoires (ibuprofène, cortisone ...) pourrait être un facteur</P>
+        <p>d'aggravation de l’infection. En cas de fièvre, prenez du paracétamol.</p>
+        <p>N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacien. </p>
+    </div>
+    <!-- <section>
+        <div class="test2">
+            <ul class="stepp4">
+                <li class="typ1">Information</li>
+                <li>Questionnaire</li>
+                <li>Résultats</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <section class="tai_test">
+        <div class="Préambule">
+            <div class="title">
+                <h1>Préambule</h1>
+                <div class="p1">
+                    <p>« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour
+                        contribuer à fluidifier la prise en charge des personnes par les <br>
+                        services d’urgences pendant l’épidémie de Coronavirus COVID-19. L’exhaustivité, l’exactitude, le
+                        caractère à jour des informations et contenus mis à <br>
+                        disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont
+                        pas
+                        garantis.</p>
+                </div>
+
+                <div class="line"></div>
+                <div class="p2">
+                    <p>L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire
+                        donné par
+                        votre médecin ou votre pharmacien ou tout autre <br>
+                        professionnel de santé compétent dans chaque cas particulier. Tout examen ou décision de
+                        l’utilisateur
+                        doit être réalisé ou prise de manière autonome sur la <br>
+                        base de l’information scientifique et clinique pertinente, de la notice officielle du produit
+                        concerné
+                        le cas échéant et en cas de doute, en consultant un médecin <br>
+                        compétent.</p>
+                </div>
+            </div>
+        </div>
+        <button class="btn_test"> Demarer le test</button>
+    </section> -->
+
+
+
+
+
+    <main>
+        <section class="main__inform sect ">
+            <div class="main__tags">
+                <div class="main__tag">
+                    <img class="main__inform__img  main__inform__img--active" src="Design/active.svg" alt="">
+                    <h3 class="h3__active">Informations</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img" src="Design/desactive.svg" alt="">
+                    <h3>Questionnaire</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img" src="Design/desactive.svg" alt="">
+                    <h3>Résultats</h3>
+                </div>
+            </div>
+            <div class="main__Preambule">
+                <h3>Préambule</h3>
+                <p>« L’application est fournie à titre gratuit, en l’état, uniquement à des fins d’information pour
+                    contribuer à fluidifier la prise en charge des personnes par les services d’urgences pendant
+                    l’épidémie de
+                    Coronavirus COVID-19. L’exhaustivité, l’exactitude, le caractère à jour des informations et contenus
+                    mis à
+                    disposition dans cette application, ou leur adéquation à des finalités particulières, ne sont pas
+                    garantis.
+                </p>
+                <div id="line"></div>
+                <p> L’utilisation de l’application et de son contenu ne remplace en aucun cas le conseil nécessaire
+                    donné par
+                    votre médecin ou votre pharmacien ou tout autre professionnel de santé compétent dans chaque cas
+                    particulier. Tout examen ou décision de l’utilisateur doit être réalisé ou prise de manière autonome
+                    sur la
+                    base de l’information scientifique et clinique pertinente, de la notice officielle du produit
+                    concerné le
+                    cas échéant et en cas de doute, en consultant un médecin compétent. </p>
+            </div>
+            <a href="#" id="demarer">Demarer le test</a>
+        </section>
+
+        <section class="main__questionnaire sect affiche">
+            <div class="main__tags">
+                <div class="main__tag">
+                    <img class="main__inform__img" src="Design/desactive.svg" alt="">
+                    <h3 class="h3__active">Informations</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img  main__inform__img--active" src="Design/active.svg" alt="">
+                    <h3>Questionnaire</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img" src="Design/desactive.svg" alt="">
+                    <h3>Résultats</h3>
+                </div>
+            </div>
+            <form id="form">
+                <div class="numerotation">
+                    <div class="relative">
+                        <div class="progressbar">
+                        </div>
+                        <progress id="file" max="22"> </progress>
+                    </div>
+                    <p id="afficheNum"></p>
+                </div>
+                <div class="questions">
+
+                </div>
+                <div class="inputs">
+                    <input type="submit" value="precedent" id="precedent">
+                    <input type="submit" value="suivant" id="suivant">
+                    <input type="submit" value="afficher le resultat" id="resultat" class="affiche">
+                </div>
+            </form>
+
+    
+
+        </section>
+        <section class="main__Resultat sect affiche">
+            <div class="main__tags">
+                <div class="main__tag">
+                    <img class="main__inform__img " src="Design/desactive.svg" alt="">
+                    <h3 class="h3__active">Informations</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img" src="Design/desactive.svg" alt="">
+                    <h3>Questionnaire</h3>
+                </div>
+                <div class="main__tag">
+                    <img class="main__inform__img main__inform__img--active " src="Design/active.svg" alt="">
+                    <h3>Résultats</h3>
+                </div>
+            </div>
+            <div class="affiche__resultat">
+                <h3>Résultat</h3>
+                <p id="affichageResult"> </p>
+                <div id="line"></div>
+                <br>
+                <span> Restez chez vous au maximum en attendant que les symptômes disparaissent. Prenez votre
+                    température deux
+                    fois par jour. Rappel des mesures d’hygiène. </span>
+            </div>
+            <input type="submit" value="Recommencer le test" id="repeter">
+        </section>
+    </main>
+
+    <section class="may_main_2">
+        <h1>Recommandations officielles</h1>
+        <div class="main_2">
+            <div>
+                <h2>Si vous pensez être malade, </h2>
+                <p>évitez les endroits publics</p>
+                <p>Ne rendez pas visite aux personnes fragiles.</p>
+                <p>Évitez de sortir de chez vous. </p>
+                <p>Respectez les mesures barrière (lavage de main, masque).</p>
+                <p>Surveillez vos symptômes, l’évolution de votre température </p>
+                <p>corporelle et recherchez un avis médical.</p>
+            </div>
+
+            <div class="contact_main">
+                <h2 class="test">Apple Gratuit</h2>
+                <button>080 100 47 47</button>
+                <a href="">www.sante.gov.ma</a>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <div>
+            <div>
+                <p> Vous pensez avoir été exposé au Coronavirus COVID-19 et avez des symptômes ? </p>
+            </div>
+            <div> <img src="Design/Assets/png/1f637.png" alt=""></div>
+            <div> <button class="button_footer">Demarer le test</button></div>
+        </div>
+    </section>
+
+    <section class="footr_footr">
+        <div>
+            <img src="Design/Assets/png/logo__sante-33.png" class="img_footer" alt="">
+        </div>
+        <div class="footer_2">
+            <div class="contact__footer">
+                <a href="" class="logo__nav2">FRAN<img src="Design/Assets/SVG/globe.svg" width="18px" alt="logo"></a>
+                <a href="">Accueil</a>
+                <a href="">Conseli</a>
+            </div>
+            <div class="contact__footer ">
+                <h2>Contacts utiles</h2>
+                <p>Chiffre économique "Alo épidémie vigilance"</p>
+                <a href="" id="contact">080 100 47 47</a>
+                <p>Aide médicale urgente</p>
+                <a href="" id="contact">114</a>
+            </div>
+
+        </div>
+        <img src="Design/Assets/png/En chiffres-2.png" alt="" width="100%" height="40px">
+
+
+    </section>
+
+</body>
+
+<script src="app/js/script.js"></script>
+
+</html>
